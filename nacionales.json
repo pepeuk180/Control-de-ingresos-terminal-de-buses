@@ -1,0 +1,81 @@
+[
+  {
+    "n_identificacion": "12425029",
+      "nombre": "Jose Carlos",
+      "apellido_paterno": "Medina",
+      "apellido_materno": "Averanga",
+      "departamento": "La Paz"
+  },
+    {
+      "n_identificacion": "135792468",
+      "nombre": "Juan",
+      "apellido_paterno": "Torres",
+      "apellido_materno": "Martinez",
+      "departamento": "Potosí"
+    },
+    {
+      "n_identificacion": "246813579",
+      "nombre": "Laura",
+      "apellido_paterno": "Garcia",
+      "apellido_materno": "Lopez",
+      "departamento": "Oruro"
+    },
+    {
+      "n_identificacion": "987654321",
+      "nombre": "Diego",
+      "apellido_paterno": "Morales",
+      "apellido_materno": "Hernandez",
+      "departamento": "Beni"
+    },
+    {
+      "n_identificacion": "951753852",
+      "nombre": "Silvia",
+      "apellido_paterno": "Chavez",
+      "apellido_materno": "Fernandez",
+      "departamento": "Chuquisaca"
+    },
+    {
+      "n_identificacion": "369258147",
+      "nombre": "Gabriel",
+      "apellido_paterno": "Rodriguez",
+      "apellido_materno": "Gutierrez",
+      "departamento": "Tarija"
+    },
+    {
+          "n_identificacion": "123456789",
+          "nombre": "Ana",
+          "apellido_paterno": "Gutierrez",
+          "apellido_materno": "Lopez",
+          "departamento": "La Paz"
+        },
+        {
+          "n_identificacion": "987654321",
+          "nombre": "Carlos",
+          "apellido_paterno": "Flores",
+          "apellido_materno": "Gomez",
+          "departamento": "Santa Cruz"
+        },
+        {
+          "n_identificacion": "555666777",
+          "nombre": "María",
+          "apellido_paterno": "Chávez",
+          "apellido_materno": "Ramírez",
+          "departamento": "Cochabamba"
+        },
+        {
+          "n_identificacion": "234567890",
+          "nombre": "Jorge",
+          "apellido_paterno": "Mendoza",
+          "apellido_materno": "Vargas",
+          "departamento": "Chuquisaca"
+        },
+        {
+          "n_identificacion": "876543210",
+          "nombre": "Isabel",
+          "apellido_paterno": "Diaz",
+          "apellido_materno": "Pérez",
+          "departamento": "Tarija"
+        }
+      ]
+      
+  

@@ -1,8 +1,10 @@
 const express = require('express')
-const movies = require('./movies.json')
+const movies = require('./extranjeros.json')
+const extranjeros = require('./extranjeros.json')
+const nacionales = require('./nacionales.json')
 
 const app = express()
-//middleware
+// middleware
 app.use(express.json())
 
 app.disable('x-powered-by')
@@ -27,6 +29,24 @@ app.get('/movies/:id', (req, res) => {
   const movie = movies.find(movie => movie.id === id)
   if (movie) return res.json(movie)
   res.status(404).json({ message: 'Movie not found' })
+})
+
+app.get('/extranjeras/:id', (req, res) => {
+  const { id } = req.params
+  const persona = extranjeros.find(persona => extranjeros.n_identificacion === id)
+  if (persona) {
+    return res.json(persona)
+  }
+  res.status(404).json({ message: 'Person not found' })
+})
+
+app.get('/nacionales/:id', (req, res) => {
+  const { id } = req.params
+  const persona = nacionales.find(persona => nacionales.n_identificacion === id)
+  if (persona) {
+    return res.json(persona)
+  }
+  res.status(404).json({ message: 'Person not found' })
 })
 
 app.post('/movies', (req, res) => {

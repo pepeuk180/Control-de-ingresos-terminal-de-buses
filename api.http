@@ -20,3 +20,7 @@ Content-Type: application/json
     ],
     "rate": 8.9
 }
+### Recuperar la información de una persona extranjera
+GET http://localhost:1234/extranjeras/234567890
+### Recuperar la información de una persona nacional
+GET http://localhost:1234/nacionales/12425029

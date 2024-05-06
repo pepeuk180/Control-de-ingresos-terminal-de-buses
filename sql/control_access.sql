@@ -31,8 +31,8 @@ CREATE TABLE `accesos` (
   `n_acceso` int(11) NOT NULL,
   `hora` time NOT NULL,
   `fecha` date NOT NULL,
-  `n_identificacion` int(11) NOT NULL,
-  `ci_empleados` int(11) NOT NULL
+  `n_identificacion` VARCHAR(11) NOT NULL,
+  `ci_empleados` VARCHAR(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -42,7 +42,7 @@ CREATE TABLE `accesos` (
 --
 
 CREATE TABLE `empleados` (
-  `ci_empleados` int(11) NOT NULL,
+  `ci_empleados` VARCHAR(11) NOT NULL,
   `nombre_empleado` varchar(60) NOT NULL,
   `apellido_empleado` varchar(60) NOT NULL,
   `direccion` varchar(100) NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE `empleados` (
 --
 
 CREATE TABLE `tickets` (
-  `token_acceso` int(15) NOT NULL,
+  `token_acceso` VARCHAR(15) NOT NULL,
   `n_identificacion` int(11) NOT NULL,
   `celular` int(8) NOT NULL,
   `estado` varchar(30) DEFAULT NULL,
@@ -73,7 +73,7 @@ CREATE TABLE `tickets` (
 --
 
 CREATE TABLE `usuarios_extranjeros` (
-  `n_identificacion` int(15) NOT NULL,
+  `n_identificacion` VARCHAR(15) NOT NULL,
   `nombre_usuario` varchar(50) NOT NULL,
   `apellido_paterno_usuario` varchar(30) NOT NULL,
   `apellido_materno_usuario` varchar(30) NOT NULL,
@@ -88,7 +88,7 @@ CREATE TABLE `usuarios_extranjeros` (
 --
 
 CREATE TABLE `usuarios_nacionales` (
-  `n_identificacion` int(11) NOT NULL,
+  `n_identificacion` VARCHAR(11) NOT NULL,
   `nombre_usuario` varchar(50) NOT NULL,
   `apellido_paterno_usuario` varchar(30) NOT NULL,
   `apellido_materno_usuario` varchar(30) DEFAULT NULL,

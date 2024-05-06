@@ -1,0 +1,59 @@
+[
+  {
+    "n_identificacion": "123456789",
+    "nombre": "John",
+    "apellido_paterno": "Smith",
+    "apellido_materno": "Doe",
+    "nacionalidad": "Estados Unidos"
+  },
+  {
+    "n_identificacion": "987654321",
+    "nombre": "Maria",
+    "apellido_paterno": "Gonzalez",
+    "apellido_materno": "Lopez",
+    "nacionalidad": "España"
+  },
+  {
+    "n_identificacion": "555666777",
+    "nombre": "Jean",
+    "apellido_paterno": "Dupont",
+    "apellido_materno": "Leblanc",
+    "nacionalidad": "Francia"
+  },
+  {
+    "n_identificacion": "234567890",
+    "nombre": "Emily",
+    "apellido_paterno": "Johnson",
+    "apellido_materno": "Brown",
+    "nacionalidad": "Canadá"
+  },
+  {
+    "n_identificacion": "876543210",
+    "nombre": "Juan",
+    "apellido_paterno": "Martinez",
+    "apellido_materno": "Garcia",
+    "nacionalidad": "México"
+  },
+  {
+    "n_identificacion": "987654321",
+    "nombre": "Sophia",
+    "apellido_paterno": "Andersen",
+    "apellido_materno": "Jensen",
+    "nacionalidad": "Dinamarca"
+  },
+  {
+    "n_identificacion": "345678901",
+    "nombre": "Mohammed",
+    "apellido_paterno": "Ali",
+    "apellido_materno": "Khan",
+    "nacionalidad": "Pakistán"
+  },
+  {
+    "n_identificacion": "456789012",
+    "nombre": "Luisa",
+    "apellido_paterno": "Santos",
+    "apellido_materno": "Rodriguez",
+    "nacionalidad": "Brasil"
+  }
+]
+
